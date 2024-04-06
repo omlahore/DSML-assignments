@@ -1,4 +1,4 @@
-Sem 4 Data Science and Machine Learning Submissions**
+**Sem 4 Data Science and Machine Learning Submissions**
 
 This repository contains data science and machine learning submissions for Semester 4 of Vishwakarma Institute of Information Technology (VIIT), Pune. It includes projects, assignments, and various other materials related to data science and machine learning coursework.
 
@@ -14,4 +14,4 @@ The project in this repository focuses on developing a sketch to image generator
 Vishwakarma Institute of Information Technology (VIIT), Pune, is a premier institute offering undergraduate and postgraduate programs in information technology and computer science engineering. The Sem 4 curriculum includes courses in data science and machine learning to provide students with a strong foundation in these domains.
 
 **Contributor:**
-- [Om Lahore]
+- Om Lahore
