@@ -1,0 +1,50 @@
+Problem Statement
+Perform k-means clustering on a dataset of mall customers to segment them into different groups based on their annual income and spending score.
+
+Libraries Used
+- pandas
+- numpy
+- matplotlib.pyplot
+- sklearn.preprocessing
+- sklearn.model_selection.train_test_split
+- sklearn.cluster.KMeans
+- warnings
+
+Theory
+**K-means clustering** is a popular unsupervised machine learning algorithm used for clustering tasks. It partitions the dataset into K clusters, with each observation belonging to the cluster with the nearest mean (centroid).
+
+Methodology
+1. Read the dataset from a CSV file using pandas.
+2. Perform data preprocessing:
+   - Set the index column.
+   - Encode categorical variables using LabelEncoder.
+3. Split the dataset into training and testing sets using train_test_split.
+4. Determine the optimal number of clusters (K) using the elbow method.
+5. Fit the K-means clustering algorithm to the dataset.
+6. Visualize the clusters and centroids.
+
+Advantages
+- Simple and easy to implement.
+- Efficient for large datasets.
+- Works well with numerical data.
+
+Applications
+- Customer segmentation.
+- Image compression.
+- Anomaly detection.
+- Document clustering.
+
+Limitations
+- Requires prior knowledge of the number of clusters (K).
+- Sensitive to the initial choice of centroids.
+- May converge to local optima.
+
+Working Algorithm
+1. Read the dataset and perform data preprocessing.
+2. Split the dataset into training and testing sets.
+3. Determine the optimal number of clusters (K) using the elbow method.
+4. Fit the K-means clustering algorithm to the dataset.
+5. Visualize the clusters and centroids.
+
+Conclusion
+In this project, we successfully applied k-means clustering to segment mall customers into distinct groups based on their annual income and spending score. The algorithm identified five clusters, allowing marketers to target specific customer segments more effectively for marketing campaigns and personalized services.
