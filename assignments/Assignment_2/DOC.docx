@@ -1,0 +1,44 @@
+**Problem Statement:**
+
+Perform the following operations using R/Python on the data sets:
+
+a) Compute and display summary statistics for each feature available in the dataset (e.g., minimum value, maximum value, mean, range, standard deviation, variance, and percentiles).
+
+b) Data Visualization - Create a histogram for each feature in the dataset to illustrate the feature distributions.
+
+c) Data cleaning, Data integration, Data transformation, Data model building (e.g., Classification).
+
+**Libraries Used:**
+- Python: pandas, matplotlib
+
+**Theory - Methodology, Advantages, Applications, and Limitations:**
+- **Methodology:**
+  - **a) Compute Summary Statistics:**
+    - Use `describe()` method in pandas to compute summary statistics like mean, median, min, max, standard deviation, etc., for each feature in the dataset.
+  - **b) Data Visualization:**
+    - Use `hist()` function in matplotlib to create histograms for each feature in the dataset, illustrating their distributions.
+  - **c) Data Cleaning:**
+    - Remove duplicate rows using `drop_duplicates()` method in pandas.
+    - Remove rows with missing values using `dropna()` method.
+    - Display the cleaned DataFrame.
+- **Advantages:**
+  - Summary statistics help in understanding the central tendency, spread, and shape of the data distribution.
+  - Data visualization provides insights into the data distribution, identifying patterns, trends, and outliers.
+  - Data cleaning ensures data quality, integrity, and reliability for downstream analysis.
+- **Applications:**
+  - Summary statistics and data visualization are essential steps in exploratory data analysis (EDA) to understand the characteristics of the dataset.
+  - Data cleaning is crucial in preparing the dataset for machine learning tasks such as classification, regression, clustering, etc.
+- **Limitations:**
+  - Summary statistics and data visualization may not capture all nuances in the data distribution, especially in complex datasets.
+  - Data cleaning approaches may vary depending on the dataset characteristics and may not always eliminate all data quality issues.
+
+**Working Algorithm:**
+1. Read the dataset using `pd.read_csv()`.
+2. Compute summary statistics using `describe()` method.
+3. Create histograms for each feature using `hist()` function.
+4. Perform data cleaning by removing duplicate rows and rows with missing values.
+5. Display the cleaned DataFrame.
+
+**Conclusion:**
+Performing operations like computing summary statistics, creating histograms for data visualization, and cleaning the dataset are essential steps in data preprocessing. These operations help in understanding the data distribution, identifying outliers, and preparing the data for further analysis or modeling. By following best practices in data cleaning and visualization, we can ensure the quality and reliability of the dataset for downstream tasks such as classification or regression.
+
