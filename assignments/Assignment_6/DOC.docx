@@ -1,0 +1,33 @@
+# Regression Analysis on Temperature Data
+
+## Objective
+The objective of this analysis is to apply linear regression to predict the annual temperature of India based on historical data.
+
+## Dataset
+The dataset used for this analysis contains temperature data of India, with temperature values recorded in Celsius. 
+
+## Methodology
+1. **Data Loading:** Load the temperature dataset.
+2. **Data Exploration:** Explore the dataset by displaying the first few rows and descriptive statistics.
+3. **Data Preprocessing:** Separate independent (Year) and dependent (Annual Temperature) variables.
+4. **Data Splitting:** Split the dataset into training and testing sets.
+5. **Model Training:** Fit a linear regression model to the training data.
+6. **Model Evaluation:** Evaluate the model's performance using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Square Error (RMSE).
+7. **Visualization:** Visualize the regression model by plotting the predicted values against the actual values.
+
+## Advantages, Applications, and Limitations
+Linear regression offers simplicity and interpretability, making it suitable for scenarios where the relationship between independent and dependent variables is approximately linear. It is commonly used in forecasting, risk assessment, and trend analysis. However, linear regression may not perform well with non-linear relationships and can be sensitive to outliers.
+
+## Working Algorithm
+The working algorithm utilized in this analysis is linear regression. Linear regression aims to find the best-fitting linear relationship between the independent and dependent variables.
+
+## Conclusion
+In conclusion, the linear regression model was successfully applied to predict the annual temperature based on the year. The model achieved decent performance, as indicated by the evaluation metrics.
+
+## Packages Used
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- scikit-learn
+
